@@ -1,0 +1,17 @@
+<!-- <img loading='lazy' decoding="async" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} /> -->
+
+
+<!-- reference: https://juejin.cn/post/7353456468094369829 -->
+{{ $path := .Destination }}
+{{ $isRemote := strings.HasPrefix $path "http" }}
+{{- if not $isRemote -}}
+  {{ $path = .Page.File.Dir }}
+  {{ $path = path.Join .Page.File.Dir .Destination }}
+  {{ $path = printf "/%s" $path }}
+
+  {{ if and (isset .Page.Site.Params "static_prefix") }}
+    {{ $prefix := .Page.Site.Params.static_prefix.name }}
+    {{ $path = strings.Replace $path $prefix "" 1 }}
+  {{ end }}
+{{- end -}}
+<img loading='lazy' decoding="async" src="{{ $path | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />

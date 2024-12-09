@@ -1,0 +1,11 @@
+{
+  "Maple@@bg-enable": "bg-default",
+  "Maple@@status-bar-style-center": false,
+  "Maple@@font-maple": false,
+  "Maple@@setting-animation-time": 200,
+  "file-tree-alternative-plugin@@oz-fta-folder-font-size": 15,
+  "file-tree-alternative-plugin@@oz-fta-file-font-size": 15,
+  "maple-plugin@@dv-enable": false,
+  "maple-editor@@font-maple": false,
+  "maple-workspace@@explorer-item-height": 1.6
+}

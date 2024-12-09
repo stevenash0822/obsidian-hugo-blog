@@ -1,0 +1,21 @@
+{
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": null,
+  "attachmentFolderPath": "static/images",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/posts",
+  "showFrontmatter": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "pageSize": "A3",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheck": false,
+  "propertiesInDocument": "visible",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
+}

@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "链接样式美化"
+  ],
+  "interfaceFontFamily": "Chalkboard,Hannotate SC",
+  "textFontFamily": "Chalkboard,Hannotate SC",
+  "monospaceFontFamily": "Chalkboard,Hannotate SC",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false,
+  "cssTheme": "Maple"
+}
