@@ -7,6 +7,6 @@
 </div>
   <div id="tcomment"></div>
   <script src="/twikoo168.js"></script>
-  <script>twikoo.init({ envId: 'https://jojo-twikoo.netlify.app/.netlify/functions/twikoo/', el: '#tcomment' })</script>
+  <script>twikoo.init({ envId: '{{ $.Site.Params.twikoo.web_api_address }}', el: '#tcomment' })</script>
   {{- end }}
 {{- end }}
