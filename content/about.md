@@ -23,7 +23,7 @@ layout: posts
 ## 📒 如何建站
 - 博客架构：[hugo](https://gohugo.io)
 - 主题来源：[immmmm/themes/hello-friend · GitHub](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend), [lillian-who.github.io/themes/hello-friend · GitHub](https://github.com/lillian-who/lillian-who.github.io/tree/master/themes/hello-friend)
-- 博客源码：[stevenash0822/PKM-blog · GitHub](https://github.com/stevenash0822/PKM-blog)
+- 博客源码：[stevenash0822/obsidian-hugo-blog · GitHub](https://github.com/stevenash0822/obsidian-hugo-blog)
 
 如果你想要克隆我的博客，请看这里:
 {{<link "我的建站方案">}}

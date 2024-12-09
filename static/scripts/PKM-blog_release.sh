@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # displays
-echo "Semi-automatically release PKM-blog git!"
+echo "Semi-automatically release obsidian-hugo-blog git!"
 echo "Plz execute this script after closing the Obsidian!!!"
 echo 
 
@@ -28,5 +28,5 @@ git push
 
 git branch -d release-${tag_name}
 
-git tag -a v${tag_name} master -m "v${tag_name}: Update PKM-blog on ${date}"
+git tag -a v${tag_name} master -m "v${tag_name}: Release on ${date}"
 git push --tags
