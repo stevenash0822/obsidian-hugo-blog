@@ -16,6 +16,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
+    # 确保在 dev 分支上进行操作
+    - name: Set up dev branch
+      run: |
+        git fetch origin
+        git checkout dev || git checkout -b dev
+
     - name: movie
       uses: lizheming/doumark-action@master
       with:
@@ -37,3 +43,4 @@ jobs:
       with:
         message: 'chore: update douban data'
         add: './static/douban'
+        branch: dev
