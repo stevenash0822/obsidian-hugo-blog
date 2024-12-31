@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: movie
-      uses: lizheming/doumark-action@master
+      uses: lizheming/doumark-action@ec86a14c87c038338ca2908ae3ce5ad741cec329
       with:
         id: 237542649
         type: movie
@@ -25,7 +25,7 @@ jobs:
         dir: ./static/douban
 
     - name: book
-      uses: lizheming/doumark-action@master
+      uses: lizheming/doumark-action@ec86a14c87c038338ca2908ae3ce5ad741cec329
       with:
         id: 237542649
         type: book

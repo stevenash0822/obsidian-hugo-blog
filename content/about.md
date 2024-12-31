@@ -26,7 +26,7 @@ layout: posts
 - 博客源码：[stevenash0822/obsidian-hugo-blog · GitHub](https://github.com/stevenash0822/obsidian-hugo-blog)
 
 如果你想要克隆我的博客，请看这里:
-{{<link "我的建站方案">}}
+{{<link "我的建站方案 - Obsidian + Hugo + Github + Vercel">}}
 
 
 
