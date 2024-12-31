@@ -10,8 +10,6 @@ feature:
 
 {{< douban "https://book.douban.com/subject/26838438/" >}}
 
-placeholder
-
 <!--more-->
 
-sd
+*TO BE CONTINUED*
