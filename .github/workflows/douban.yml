@@ -31,6 +31,22 @@ jobs:
         type: book
         format: csv
         dir: ./static/douban
+
+    - name: movie_teammate
+      uses: lizheming/doumark-action@ec86a14c87c038338ca2908ae3ce5ad741cec329
+      with:
+        id: 80892030
+        type: movie
+        format: csv
+        dir: ./static/douban/teammate
+
+    - name: book_teammate
+      uses: lizheming/doumark-action@ec86a14c87c038338ca2908ae3ce5ad741cec329
+      with:
+        id: 80892030
+        type: book
+        format: csv
+        dir: ./static/douban/teammate
   
     - name: Commit
       uses: EndBug/add-and-commit@v9

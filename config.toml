@@ -19,29 +19,33 @@ rssLimit = 5
 
 [menu]
   [[menu.main]]
+  name="队友"
+  url="/posts/teammate/"
+  weight="1"
+  [[menu.main]]
   name="读书"
   url="/books/"
-  weight="1"
+  weight="2"
   [[menu.main]]
   name="看剧"
   url="/movies/"
-  weight="2"
+  weight="3"
   [[menu.main]]
   name="便签"
   url="/posts/chat/"
-  weight="3"
+  weight="4"
   [[menu.main]]
   name="归档"
   url="/archives/"
-  weight="4"
+  weight="5"
   [[menu.main]]
   name="关于我"
   url="/about/"
-  weight="5"
+  weight="6"
   [[menu.main]]
   name="🔍"
   url="/search/"
-  weight="6"
+  weight="7"
 
 [params]
   # dir name of your blog content (default is `content/posts`)

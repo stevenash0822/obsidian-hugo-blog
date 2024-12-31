@@ -18,6 +18,7 @@
   <div class="posts">
     <!-- Comment: 不知为何，只有在这里修改where的筛选条件才生效，且list.html.html生效而list.html不生效 -->
     {{ range where $paginator.Pages "Section" "posts"}}
+    {{ if and (eq .Section "posts") (not (in .File.Path "posts/teammate/")) }}
     {{ $PostCate := .File.Dir | replaceRE "posts/(.*)/" "$1"}}
     <div class="post on-list {{$PostCate}}">
     {{ if eq $PostCate "chat"}}
@@ -63,6 +64,7 @@
       </div>
     {{ end }}
     </div>
+    {{ end }}
     {{ end }}
     {{ partial "pagination.html" . }}
   </div>
